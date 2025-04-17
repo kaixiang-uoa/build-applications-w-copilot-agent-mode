@@ -1,0 +1,51 @@
+/* Add background color */
+body {
+  background-color: #f8f9fa; /* Light gray */
+  color: #343a40; /* Dark gray for text */
+}
+
+/* Style navigation menu */
+.navbar {
+  background-color: #007bff; /* Bootstrap primary blue */
+}
+.navbar-brand, .nav-link {
+  color: #ffffff !important; /* White text for links */
+}
+.nav-link:hover {
+  color: #ffc107 !important; /* Bootstrap warning yellow on hover */
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Style tables */
+.table {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #dee2e6; /* Light border */
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+/* Style buttons */
+.btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+}
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add logo styling */
+.logo {
+  height: 30px; /* Reduce the height of the logo */
+  margin-right: 10px;
+}
+
+/* Add favicon styling */
+.favicon {
+  width: 32px;
+  height: 32px;
+}
